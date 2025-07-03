@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(135deg, #046690, #970343);
+  font-family: 'Poppins', sans-serif;
+}
+
+.weather-card {
+  max-width: 400px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  animation: fadeIn 1s ease;
+}
+
+#weatherIcon {
+  width: 100px;
+  animation: bounce 1.5s infinite alternate;
+}
+
+.search-btn {
+  transition: transform 0.2s;
+}
+
+.search-btn:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
