@@ -38,5 +38,3 @@ It’s a beginner-friendly project focused on learning how to:
 
 ---
 
-## 🧩 Folder Structure
-
