@@ -1,37 +1,42 @@
-# Weather App
+# 🌤 Weather App
 
-A simple weather application that shows current weather details for any city using the OpenWeatherMap API.
-
----
-
-## Features
-- Search weather by city name
-- Shows temperature, humidity, and wind speed
-- Uses dynamic weather icons
-- Responsive UI using Bootstrap
-- Fetches live data from OpenWeatherMap API
+A fully responsive weather application built using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**.  
+It fetches real-time weather information from the **OpenWeatherMap API** and displays details like temperature, humidity, and wind speed for any searched city.
 
 ---
 
-## Tech Stack
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
+## 📚 Project Overview
+
+The **Weather App** is designed to provide quick, clean, and accurate weather updates for any city.  
+It’s a beginner-friendly project focused on learning how to:
+- Fetch data from an external API using `fetch()`
+- Parse and display JSON data dynamically
+- Handle user input with proper error handling
+- Build a responsive UI using Bootstrap + CSS Flexbox
 
 ---
 
-## How to Use
-1. Open the project folder.
-2. Open **index.html** in your browser.
-3. Enter any city name in the search box.
-4. View current weather details instantly.
+## 🚀 Features
+
+- 🌍 Search for weather by city name  
+- 🌡️ Displays temperature in Celsius  
+- 💧 Shows humidity and wind speed  
+- ⛅ Dynamic weather icons change based on conditions  
+- 📱 Fully responsive for all screen sizes  
+- ⚡ Fast and lightweight (pure front-end)
 
 ---
 
-## API Setup
-1. Create a free account at [OpenWeatherMap](https://openweathermap.org/api).
-2. Copy your API key.
-3. Open **script.js** and replace:
-   ```js
-   const apiKey = "YOUR_API_KEY";
+## 🛠 Technologies Used
+
+| Category | Tools |
+|-----------|--------|
+| **Frontend** | HTML5, CSS3, Bootstrap 5 |
+| **Scripting** | JavaScript (ES6) |
+| **API** | [OpenWeatherMap API](https://openweathermap.org/api) |
+| **IDE** | Visual Studio Code |
+
+---
+
+## 🧩 Folder Structure
+
